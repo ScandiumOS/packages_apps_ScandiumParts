@@ -21,7 +21,7 @@
         android:key="app_lock_packages"
         android:title="@string/app_lock_packages_title"
         android:summary="@string/app_lock_packages_summary"
-        android:fragment="com.nusantara.wings.fragments.security.applock.AppLockPackageListFragment" />
+        android:fragment="com.scandium.parts.fragments.security.applock.AppLockPackageListFragment" />
 
     <ListPreference
         android:key="app_lock_timeout"
@@ -31,7 +31,7 @@
         android:entryValues="@array/app_lock_timeout_values"
         android:defaultValue="0"
         android:persistent="false"
-        settings:controller="com.nusantara.wings.fragments.security.applock.AppLockTimeoutPreferenceController" />
+        settings:controller="com.scandium.parts.fragments.security.applock.AppLockTimeoutPreferenceController" />
 
     <SwitchPreference
         android:key="app_lock_biometrics_allowed"

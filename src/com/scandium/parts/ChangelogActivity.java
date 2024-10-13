@@ -11,7 +11,7 @@
     limitations under the License.
  */
 
-package com.nusantara.wings;
+package com.scandium.parts;
 
 import android.os.Bundle;
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;

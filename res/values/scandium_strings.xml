@@ -16,9 +16,9 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Nusantara Wings -->
-    <string name="nusantarawings_title">Nusantara Wings</string>
-    <string name="nusantarawings_summary">Get your favorite customization</string>
+    <!-- scandium Wings -->
+    <string name="scandiumparts_title">Scandium Parts</string>
+    <string name="scandiumparts_summary">Get your favorite customization</string>
 
     <!-- The Team -->
     <string name="dialog_team_title">The team</string>
@@ -27,7 +27,7 @@
     <string name="developer_title">Developer</string>
     <string name="maintainer_title">Maintainer</string>
     <string name="contributor_title">Contributor</string>
-    <string name="veteran_title">Veteran</string>
+ <!-- <string name="veteran_title">Veteran</string> -->
 
     <!-- Bottom navigation -->
     <string name="bottom_nav_system_title">System</string>
@@ -315,7 +315,7 @@
     <string name="system_theme_title">System theme</string>
     <string name="dark_theme_title">Dark aosp</string>
     <string name="berry_black_theme_title">Pure black</string>
-    <string name="nusantara_clear_theme_title">Nusantara clear theme</string>
+    <string name="scandium_clear_theme_title">scandium clear theme</string>
     <string name="solarized_theme_title">Solarized theme</string>
 
     <!-- Dynamic System Bars -->
@@ -358,11 +358,11 @@
     <string name="lockscreen_albumart_filter_grayblur">Grayscale and blurred</string>
     <string name="lockscreen_media_blur_title">Media art blur level</string>
 
-    <!-- Nusantara logo -->
-    <string name="nad_logo_title">Nusantara logo</string>
-    <string name="nad_logo_summary">Let everyone know that you\'re using Nusantara when they see your screen</string>
+    <!-- scandium logo -->
+    <string name="scandium_logo_title">Scandium logo</string>
+    <string name="scandium_logo_summary">Let everyone know that you\'re when they see your screen</string>
     <string name="status_bar_logo_style_title">Style</string>
-    <string name="status_bar_logo_style_nad">Nusantara logo</string>
+    <string name="status_bar_logo_style_scandium">Scandium logo</string>
     <string name="status_bar_logo_style_adidas">Adidas</string>
     <string name="status_bar_logo_style_airjordan">Air Jordan</string>
     <string name="status_bar_logo_style_apple">Apple</string>
@@ -407,8 +407,8 @@
     </string>
 
     <!-- Blur Style -->
-    <string name="blur_style_category_title">Nusantara blur style</string>
-    <string name="blur_style_category_summary">Use nusantara blur background</string>
+    <string name="blur_style_category_title">Scandium blur style</string>
+    <string name="blur_style_category_summary">Use scandium blur background</string>
     <string name="blur_style_title">Blur Style</string>
     <string name="blur_style_summary_on">Blur enabled</string>
     <string name="blur_style_summary_off">Blur disabled</string>
@@ -468,7 +468,7 @@
     <string name="settings_style_default">Default</string>
     <string name="settings_style_aosp">Aosp</string>
     <string name="settings_style_grid">Grid</string>
-    <string name="settings_style_nad_grid_list">Grid &amp; list</string>
+    <string name="settings_style_scandium_grid_list">Grid &amp; list</string>
 
     <!-- QS tiles layout -->
     <string name="qs_tile_layout_title">QS tiles layout</string>

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.lockscreen;
+package com.scandium.parts.fragments.lockscreen;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -158,7 +158,7 @@ public class UdfpsAnimation extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.NUSANTARA_PRJ;
+        return MetricsEvent.SCANDIUM_PRJ;
     }
 
     @Override

@@ -21,7 +21,7 @@
         android:key="interface_category"
         android:title="Interface">
 
-    <com.nusantara.support.preferences.SystemSettingListPreference
+    <com.scandium.support.preferences.SystemSettingListPreference
         android:key="settings_style"
         android:title="@string/settings_style_title"
         android:entries="@array/settings_style_entries"
@@ -33,9 +33,9 @@
         android:key="blur_style"
         android:title="@string/blur_style_category_title"
         android:summary="@string/blur_style_category_summary"
-        android:fragment="com.nusantara.wings.fragments.system.BlurredSettings" />
+        android:fragment="com.scandium.parts.fragments.system.BlurredSettings" />
 
-        <com.nusantara.support.preferences.SecureSettingListPreference
+        <com.scandium.support.preferences.SecureSettingListPreference
             android:key="system_theme"
             android:title="@string/system_theme_title"
             android:entries="@array/theme_style_entries"
@@ -47,14 +47,14 @@
             android:key="android.theme.customization.adaptive_icon_shape"
             android:title="@string/theme_customization_icon_shape_title"
             android:summary="@string/theme_customization_icon_shape_summary"
-            android:fragment="com.nusantara.wings.fragments.system.IconShapes"/>
+            android:fragment="com.scandium.parts.fragments.system.IconShapes"/>
 
         <!-- DSB -->
         <Preference
             android:key="dynamic_system_bars"
             android:title="@string/dynamic_system_bars_category_title"
             android:summary="@string/dynamic_system_bars_category_summary"
-            android:fragment="com.nusantara.wings.fragments.system.DsbSettings" />
+            android:fragment="com.scandium.parts.fragments.system.DsbSettings" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -62,7 +62,7 @@
         android:title="Monet">
 
         <!-- Accurate shades -->
-        <com.nusantara.support.preferences.SecureSettingSwitchPreference
+        <com.scandium.support.preferences.SecureSettingSwitchPreference
             android:key="monet_engine_accurate_shades"
             android:title="@string/accurate_shades_title"
             android:defaultValue="true" />
@@ -74,12 +74,12 @@
             android:defaultValue="true" />
 
         <!-- Color override -->
-        <com.nusantara.support.colorpicker.ColorPickerPreference
+        <com.scandium.support.colorpicker.ColorPickerPreference
             android:key="monet_engine_color_override"
             android:title="@string/color_override_title" />
 
         <!-- Chroma factor -->
-        <com.nusantara.support.preferences.CustomSeekBarPreference
+        <com.scandium.support.preferences.CustomSeekBarPreference
             android:key="monet_engine_chroma_factor"
             android:title="@string/chroma_factor_title"
             android:defaultValue="100"
@@ -90,13 +90,13 @@
             settings:units="%" />
 
         <!-- Custom lightness scale -->
-        <com.nusantara.support.preferences.SecureSettingSwitchPreference
+        <com.scandium.support.preferences.SecureSettingSwitchPreference
             android:key="monet_engine_linear_lightness"
             android:title="@string/linear_lightness_title"
             android:defaultValue="0" />
 
         <!-- Brightness -->
-        <com.nusantara.support.preferences.SecureSettingSeekBarPreference
+        <com.scandium.support.preferences.SecureSettingSeekBarPreference
             android:key="monet_engine_white_luminance"
             android:title="@string/white_luminance_title"
             android:dependency="monet_engine_linear_lightness"

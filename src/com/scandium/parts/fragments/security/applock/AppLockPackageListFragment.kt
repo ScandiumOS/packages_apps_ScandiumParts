@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.security.applock
+package com.scandium.parts.fragments.security.applock
 
 import android.app.AppLockManager
 import android.content.Context
@@ -32,7 +32,7 @@ import com.android.settings.R
 import com.android.settings.core.SubSettingLauncher
 import com.android.settingslib.PrimarySwitchPreference
 import com.android.settingslib.widget.TwoTargetPreference.ICON_SIZE_SMALL
-import com.nusantara.wings.preferences.NusantaraDashboardFragment
+import com.scandium.parts.preferences.NusantaraDashboardFragment
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

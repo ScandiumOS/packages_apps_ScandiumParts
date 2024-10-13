@@ -28,7 +28,7 @@
             android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" >
         <extra
             android:name="referer"
-            android:value="com.nusantara.wings" />
+            android:value="com.scandium.parts" />
         </intent>
     </com.android.settings.widget.HomepagePreference>
 
@@ -38,7 +38,7 @@
         android:icon="@drawable/dt_themes"
         android:title="@string/themes_title"
         android:summary="@string/themes_summary"
-        android:fragment="com.nusantara.wings.fragments.system.Themes" />
+        android:fragment="com.scandium.parts.fragments.system.Themes" />
 
     <com.android.settings.widget.HomepagePreference
         android:key="notifications_category"
@@ -46,7 +46,7 @@
         android:icon="@drawable/dt_notifications"
         android:title="@string/notifications_title"
         android:summary="@string/notifications_summary"
-        android:fragment="com.nusantara.wings.fragments.system.Notifications" />
+        android:fragment="com.scandium.parts.fragments.system.Notifications" />
 
     <com.android.settings.widget.HomepagePreference
         android:key="miscellaneous_category"
@@ -54,6 +54,6 @@
         android:icon="@drawable/dt_miscellaneous"
         android:title="@string/miscellaneous_title"
         android:summary="@string/miscellaneous_summary"
-        android:fragment="com.nusantara.wings.fragments.system.Miscellaneous" />
+        android:fragment="com.scandium.parts.fragments.system.Miscellaneous" />
 
 </PreferenceScreen>

@@ -23,7 +23,7 @@
         android:icon="@drawable/dt_lockscreen_items"
         android:title="@string/lockscreen_items_title"
         android:summary="@string/lockscreen_items_summary"
-        android:fragment="com.nusantara.wings.fragments.lockscreen.LockscreenItems" />
+        android:fragment="com.scandium.parts.fragments.lockscreen.LockscreenItems" />
 
     <com.android.settings.widget.HomepagePreference
         android:key="fingerprint_prefs_category"
@@ -31,6 +31,6 @@
         android:icon="@drawable/dt_fingerprint_prefs"
         android:title="@string/fingerprint_prefs_title"
         android:summary="@string/fingerprint_prefs_summary"
-        android:fragment="com.nusantara.wings.fragments.lockscreen.FingerprintPrefs" />
+        android:fragment="com.scandium.parts.fragments.lockscreen.FingerprintPrefs" />
 
 </PreferenceScreen>

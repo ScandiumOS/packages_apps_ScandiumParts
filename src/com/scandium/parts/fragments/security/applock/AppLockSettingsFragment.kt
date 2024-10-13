@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.security.applock
+package com.scandium.parts.fragments.security.applock
 
 import android.content.Context
 import android.os.SystemProperties
@@ -28,7 +28,7 @@ import com.android.settings.R
 import com.android.settings.search.BaseSearchIndexProvider
 import com.android.settingslib.core.AbstractPreferenceController
 import com.android.settingslib.search.SearchIndexable
-import com.nusantara.wings.preferences.NusantaraDashboardFragment
+import com.scandium.parts.preferences.NusantaraDashboardFragment
 
 @SearchIndexable
 class AppLockSettingsFragment : NusantaraDashboardFragment(),

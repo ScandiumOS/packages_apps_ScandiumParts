@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.system;
+package com.scandium.parts.fragments.system;
 
 import android.app.UiModeManager;
 import android.content.Context;
@@ -38,17 +38,17 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
-import com.nusantara.wings.UtilsNad;
+import com.scandium.parts.UtilsNad;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import com.android.internal.util.nad.NadUtils;
 
-import com.nusantara.support.preferences.CustomSeekBarPreference;
-import com.nusantara.support.colorpicker.ColorPickerPreference;
-import com.nusantara.support.preferences.SecureSettingListPreference;
-import com.nusantara.support.preferences.SystemSettingListPreference;
+import com.scandium.support.preferences.CustomSeekBarPreference;
+import com.scandium.support.colorpicker.ColorPickerPreference;
+import com.scandium.support.preferences.SecureSettingListPreference;
+import com.scandium.support.preferences.SystemSettingListPreference;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class Themes extends SettingsPreferenceFragment
@@ -150,7 +150,7 @@ public class Themes extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NUSANTARA_PRJ;
+        return MetricsProto.MetricsEvent.SCANDIUM_PRJ;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

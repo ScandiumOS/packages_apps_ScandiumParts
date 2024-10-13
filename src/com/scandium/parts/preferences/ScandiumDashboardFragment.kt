@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.preferences;
+package com.scandium.parts.preferences;
 
 import com.android.internal.logging.nano.MetricsProto
 import com.android.settings.dashboard.DashboardFragment
 
 abstract class NusantaraDashboardFragment: DashboardFragment() {
-    override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.NUSANTARA_PRJ
+    override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.SCANDIUM_PRJ
 }

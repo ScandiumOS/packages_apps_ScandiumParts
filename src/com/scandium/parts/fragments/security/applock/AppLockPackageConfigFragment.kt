@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.security.applock
+package com.scandium.parts.fragments.security.applock
 
 import android.content.Context
 import android.content.pm.PackageInfo
@@ -28,7 +28,7 @@ import com.android.settings.widget.EntityHeaderController
 import com.android.settingslib.applications.ApplicationsState.AppEntry
 import com.android.settingslib.core.AbstractPreferenceController
 import com.android.settingslib.widget.LayoutPreference
-import com.nusantara.wings.preferences.NusantaraDashboardFragment
+import com.scandium.parts.preferences.NusantaraDashboardFragment
 
 private val TAG = AppLockPackageConfigFragment::class.simpleName
 private const val KEY_HEADER = "header_view"

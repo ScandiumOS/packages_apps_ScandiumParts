@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings;
+package com.scandium.parts;
 
 import android.app.ActionBar;
 import android.content.Context;
@@ -43,9 +43,9 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.nusantara.wings.fragments.team.TeamActivity;
-import com.nusantara.wings.bottomnav.BubbleNavigationConstraintView;
-import com.nusantara.wings.bottomnav.BubbleNavigationChangeListener;
+import com.scandium.parts.fragments.team.TeamActivity;
+import com.scandium.parts.bottomnav.BubbleNavigationConstraintView;
+import com.scandium.parts.bottomnav.BubbleNavigationChangeListener;
 
 public class NusantaraWings extends SettingsPreferenceFragment {
 
@@ -63,10 +63,10 @@ public class NusantaraWings extends SettingsPreferenceFragment {
             actionBar.setTitle(R.string.nusantarawings_title);
         }
 
-        Fragment system = new com.nusantara.wings.tabs.System();
-        Fragment lockscreen = new com.nusantara.wings.tabs.Lockscreen();
-        Fragment statusbar = new com.nusantara.wings.tabs.Statusbar();
-        Fragment hardware = new com.nusantara.wings.tabs.Hardware();
+        Fragment system = new com.scandium.parts.tabs.System();
+        Fragment lockscreen = new com.scandium.parts.tabs.Lockscreen();
+        Fragment statusbar = new com.scandium.parts.tabs.Statusbar();
+        Fragment hardware = new com.scandium.parts.tabs.Hardware();
 
         Fragment fragment = (Fragment) getFragmentManager().findFragmentById(R.id.fragmentContainer);
         if (fragment == null) {
@@ -103,11 +103,11 @@ public class NusantaraWings extends SettingsPreferenceFragment {
                 com.android.internal.R.attr.colorPrimary).getDefaultColor();
         boolean setCustomColor = blurEnabled || clearEnabled || blurEnabled && clearEnabled;
         int customColor = setCustomColor ? colorSurface :  colorPrimary;
-        View headerBg = view.findViewById(R.id.nad_nav);
+        View headerBg = view.findViewById(R.id.scandium_nav);
         View topRound = view.findViewById(R.id.top_round);
 
         Resources r = getContext().getResources();
-        headerBg.setBackground(setCustomColor ? null :  r.getDrawable(R.drawable.nad_bg_gaydient));
+        headerBg.setBackground(setCustomColor ? null :  r.getDrawable(R.drawable.scandium_bg_gaydient));
         Drawable header = headerBg.getBackground();
         if (header != null) header.setTint(colorSurface);
         bubbleNavigationConstraintView.setBackgroundColor(setCustomColor ? Color.TRANSPARENT : colorSurface);
@@ -146,7 +146,7 @@ public class NusantaraWings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NUSANTARA_PRJ;
+        return MetricsProto.MetricsEvent.SCANDIUM_PRJ;
     }
 
     @Override

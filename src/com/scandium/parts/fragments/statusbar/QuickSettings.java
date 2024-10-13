@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.statusbar;
+package com.scandium.parts.fragments.statusbar;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -33,11 +33,11 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.nusantara.support.preferences.SystemSettingEditTextPreference;
-import com.nusantara.support.preferences.SystemSettingSwitchPreference;
-import com.nusantara.support.preferences.SystemSettingListPreference;
+import com.scandium.support.preferences.SystemSettingEditTextPreference;
+import com.scandium.support.preferences.SystemSettingSwitchPreference;
+import com.scandium.support.preferences.SystemSettingListPreference;
 
-import com.nusantara.wings.UtilsNad;
+import com.scandium.parts.UtilsNad;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -107,7 +107,7 @@ public class QuickSettings extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NUSANTARA_PRJ;
+        return MetricsProto.MetricsEvent.SCANDIUM_PRJ;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

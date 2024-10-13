@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.lockscreen;
+package com.scandium.parts.fragments.lockscreen;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -30,15 +30,15 @@ import androidx.preference.PreferenceScreen;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.widget.LockPatternUtils;
 
-import com.android.internal.util.nad.UdfpsUtils;
+import com.android.internal.util.scandium.UdfpsUtils;
 
 import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.nusantara.support.preferences.SystemSettingSwitchPreference;
-import com.nusantara.support.preferences.SecureSettingSwitchPreference;
+import com.scandium.support.preferences.SystemSettingSwitchPreference;
+import com.scandium.support.preferences.SecureSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,7 +53,7 @@ public class FingerprintPrefs extends SettingsPreferenceFragment
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.nad_fingerprint_prefs);
+        addPreferencesFromResource(R.xml.scandium_fingerprint_prefs);
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
@@ -72,7 +72,7 @@ public class FingerprintPrefs extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NUSANTARA_PRJ;
+        return MetricsProto.MetricsEvent.SCANDIUM_PRJ;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
@@ -84,7 +84,7 @@ public class FingerprintPrefs extends SettingsPreferenceFragment
                             new ArrayList<SearchIndexableResource>();
 
                     SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.nad_fingerprint_prefs;
+                    sir.xmlResId = R.xml.scandium_fingerprint_prefs;
                     result.add(sir);
                     return result;
                 }

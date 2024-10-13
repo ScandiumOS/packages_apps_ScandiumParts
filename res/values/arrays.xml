@@ -226,7 +226,7 @@
      <string-array name="theme_style_entries">
         <item>@string/dark_theme_title</item>
         <item>@string/berry_black_theme_title</item>
-        <item>@string/nusantara_clear_theme_title</item>
+        <item>@string/scandium_clear_theme_title</item>
         <item>@string/solarized_theme_title</item>
     </string-array>
 
@@ -252,7 +252,7 @@
 
     <!-- Status bar logo style -->
     <string-array name="status_bar_logo_style_entries" translatable="false">
-        <item>@string/status_bar_logo_style_nad</item>
+        <item>@string/status_bar_logo_style_scandium</item>
         <item>@string/status_bar_logo_style_adidas</item>
         <item>@string/status_bar_logo_style_airjordan</item>
         <item>@string/status_bar_logo_style_apple</item>
@@ -358,7 +358,7 @@
         <item>@string/settings_style_default</item>
         <item>@string/settings_style_aosp</item>
         <item>@string/settings_style_grid</item>
-        <item>@string/settings_style_nad_grid_list</item>
+        <item>@string/settings_style_scandium_grid_list</item>
     </string-array>
 
     <string-array name="settings_style_values" translatable="false">

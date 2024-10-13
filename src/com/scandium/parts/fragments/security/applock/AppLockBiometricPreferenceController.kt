@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.security.applock
+package com.scandium.parts.fragments.security.applock
 
 import android.app.AppLockManager
 import android.content.Context
@@ -24,7 +24,7 @@ import android.hardware.biometrics.BiometricManager.Authenticators.BIOMETRIC_STR
 import androidx.preference.Preference
 import androidx.preference.PreferenceScreen
 
-import com.nusantara.wings.preferences.NusantaraTogglePreferenceController
+import com.scandium.parts.preferences.NusantaraTogglePreferenceController
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

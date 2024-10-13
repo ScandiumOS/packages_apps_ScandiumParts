@@ -66,7 +66,7 @@
             android:tint="@android:color/system_accent1_300"
             android:backgroundTint="@android:color/system_neutral1_700"
             android:layout_marginEnd="10dp"
-            android:background="@drawable/nad_icon_bg"
+            android:background="@drawable/scandium_icon_bg"
             android:padding="10dp"
             android:src="@drawable/github" />
 
@@ -79,7 +79,7 @@
             android:backgroundTint="@android:color/system_neutral1_700"
             android:layout_marginEnd="20dp"
             android:layout_toStartOf="@+id/devGithub"
-            android:background="@drawable/nad_icon_bg"
+            android:background="@drawable/scandium_icon_bg"
             android:padding="10dp"
             android:src="@drawable/telegram" />
 
@@ -91,7 +91,7 @@
 
     </RelativeLayout>
 
-    <com.nusantara.support.helpers.CircularImageView
+    <com.scandium.support.helpers.CircularImageView
         android:id="@+id/devImage"
         android:layout_width="60dp"
         android:layout_height="60dp"

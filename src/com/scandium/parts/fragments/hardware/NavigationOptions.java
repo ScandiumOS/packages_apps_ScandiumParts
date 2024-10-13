@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.hardware;
+package com.scandium.parts.fragments.hardware;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -32,16 +32,16 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.internal.util.nad.NadUtils;
+import com.android.internal.util.scandium.NadUtils;
 
 import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.nusantara.support.preferences.SystemSettingSwitchPreference;
-import com.nusantara.support.preferences.SecureSettingSwitchPreference;
-import com.nusantara.support.preferences.SystemSettingListPreference;
+import com.scandium.support.preferences.SystemSettingSwitchPreference;
+import com.scandium.support.preferences.SecureSettingSwitchPreference;
+import com.scandium.support.preferences.SystemSettingListPreference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -129,7 +129,7 @@ public class NavigationOptions extends SettingsPreferenceFragment
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.nad_navigation_options);
+        addPreferencesFromResource(R.xml.scandium_navigation_options);
 
         final PreferenceScreen prefSet = getPreferenceScreen();
         final ContentResolver resolver = getActivity().getContentResolver();
@@ -555,7 +555,7 @@ public class NavigationOptions extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NUSANTARA_PRJ;
+        return MetricsProto.MetricsEvent.SCANDIUM_PRJ;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
@@ -567,7 +567,7 @@ public class NavigationOptions extends SettingsPreferenceFragment
                             new ArrayList<SearchIndexableResource>();
 
                     SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.nad_navigation_options;
+                    sir.xmlResId = R.xml.scandium_navigation_options;
                     result.add(sir);
                     return result;
                 }

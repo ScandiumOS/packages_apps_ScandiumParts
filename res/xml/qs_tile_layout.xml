@@ -6,13 +6,13 @@
     android:title="@string/qs_tile_layout_title">
 
 
-    <com.nusantara.support.preferences.SystemSettingSwitchPreference
+    <com.scandium.support.preferences.SystemSettingSwitchPreference
         android:key="qs_tile_label_hide"
         android:title="@string/qs_tile_hide_label_title"
         android:summary="@string/qs_tile_hide_label_summary"
         android:defaultValue="false" />
 
-    <com.nusantara.support.preferences.SystemSettingSwitchPreference
+    <com.scandium.support.preferences.SystemSettingSwitchPreference
         android:key="qs_tile_vertical_layout"
         android:title="@string/qs_tile_vertical_layout_title"
         android:summary="@string/qs_tile_vertical_layout_summary"
@@ -22,21 +22,21 @@
         android:key="tiles_layout"
         android:title="@string/qs_tiles_layout_category">
 
-        <com.nusantara.support.preferences.ProperSeekBarPreference
+        <com.scandium.support.preferences.ProperSeekBarPreference
             android:key="qs_layout_columns"
             android:title="@string/qs_columns_portrait_title"
             android:defaultValue="2"
             android:max="6"
             settings:min="2" />
 
-        <com.nusantara.support.preferences.ProperSeekBarPreference
+        <com.scandium.support.preferences.ProperSeekBarPreference
             android:key="qs_layout_rows"
             android:title="@string/qs_rows_portrait_title"
             android:defaultValue="4"
             android:max="6"
             settings:min="2" />
 
-        <com.nusantara.support.preferences.ProperSeekBarPreference
+        <com.scandium.support.preferences.ProperSeekBarPreference
             android:key="qqs_layout_rows"
             android:title="@string/qqs_rows_portrait_title"
             android:defaultValue="2"

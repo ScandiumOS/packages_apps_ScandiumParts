@@ -12,7 +12,7 @@
  * permissions and limitations under the License.
  */
 
- package com.nusantara.wings.fragments.statusbar;
+ package com.scandium.parts.fragments.statusbar;
 
  import android.content.Context;
  import android.os.Bundle;
@@ -32,8 +32,8 @@
  
  import com.android.settingslib.widget.LayoutPreference;
  
- import com.nusantara.support.preferences.ProperSeekBarPreference;
- import com.nusantara.support.preferences.SystemSettingSwitchPreference;
+ import com.scandium.support.preferences.ProperSeekBarPreference;
+ import com.scandium.support.preferences.SystemSettingSwitchPreference;
  
  public class QsTileLayoutSettings extends SettingsPreferenceFragment
          implements Preference.OnPreferenceChangeListener {
@@ -153,7 +153,7 @@
  
      @Override
      public int getMetricsCategory() {
-         return MetricsProto.MetricsEvent.NUSANTARA_PRJ;
+         return MetricsProto.MetricsEvent.SCANDIUM_PRJ;
      }
  
      private void initPreference() {

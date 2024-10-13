@@ -39,7 +39,7 @@
             android:targetClass="com.android.systemui.tuner.NavbarActivity" />
     </Preference>
 
-    <com.nusantara.support.preferences.SystemSettingSwitchPreference
+    <com.scandium.support.preferences.SystemSettingSwitchPreference
         android:key="swap_navigation_keys"
         android:title="@string/hw_keys_swap_title"
         android:summary="@string/hw_keys_swap_summary"
@@ -61,7 +61,7 @@
             android:summary="">
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.settings"
-                android:targetClass="com.nusantara.wings.fragments.hardware.navbar.BackLongPress" />
+                android:targetClass="com.scandium.wings.fragments.hardware.navbar.BackLongPress" />
         </Preference>
 
         <ListPreference
@@ -76,7 +76,7 @@
             android:summary="">
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.settings"
-                android:targetClass="com.nusantara.wings.fragments.hardware.navbar.BackDoubleTap" />
+                android:targetClass="com.scandium.wings.fragments.hardware.navbar.BackDoubleTap" />
         </Preference>
 
     </PreferenceCategory>
@@ -97,7 +97,7 @@
             android:summary="">
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.settings"
-                android:targetClass="com.nusantara.wings.fragments.hardware.navbar.HomeLongPress" />
+                android:targetClass="com.scandium.wings.fragments.hardware.navbar.HomeLongPress" />
         </Preference>
 
         <ListPreference
@@ -112,7 +112,7 @@
             android:summary="">
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.settings"
-                android:targetClass="com.nusantara.wings.fragments.hardware.navbar.HomeDoubleTap" />
+                android:targetClass="com.scandium.wings.fragments.hardware.navbar.HomeDoubleTap" />
         </Preference>
 
     </PreferenceCategory>
@@ -133,7 +133,7 @@
             android:summary="">
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.settings"
-                android:targetClass="com.nusantara.wings.fragments.hardware.navbar.AppSwitchLongPress" />
+                android:targetClass="com.scandium.wings.fragments.hardware.navbar.AppSwitchLongPress" />
         </Preference>
 
         <ListPreference
@@ -148,7 +148,7 @@
             android:summary="">
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.settings"
-                android:targetClass="com.nusantara.wings.fragments.hardware.navbar.AppSwitchDoubleTap" />
+                android:targetClass="com.scandium.wings.fragments.hardware.navbar.AppSwitchDoubleTap" />
         </Preference>
 
     </PreferenceCategory>

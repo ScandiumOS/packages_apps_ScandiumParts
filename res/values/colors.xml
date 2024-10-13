@@ -17,7 +17,7 @@
 <resources>
     <!-- Dirty Tweaks -->
     <color name="team_dialog_circle_border_color">@*android:color/accent_device_default_light</color>
-    <color name="nusantara_wings_category_icon_tint">@*android:color/accent_device_default_light</color>
+    <color name="scandium_parts_category_icon_tint">@*android:color/accent_device_default_light</color>
     <color name="themes_reset_menu_item">#FF000000</color>
     <color name="default_inactive_shape_color">#e5e5e5</color>
     <color name="default_inactive_color">#212121</color>
@@ -48,7 +48,7 @@
     <color name="fod_item_background_stroke_color">#d6d6d6</color>
 
     <!-- Gaming Mode -->
-    <color name="nad_gaming_background">@*android:color/accent_device_default_light</color>
+    <color name="scandium_gaming_background">@*android:color/accent_device_default_light</color>
 
     <color name="option_border_default">#5f6368</color>
     

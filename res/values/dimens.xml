@@ -20,9 +20,9 @@
     <dimen name="team_recycler_height">500dp</dimen>
 
     <!-- Dashboard -->
-    <dimen name="nad_dashboard_tile_image_size">48.0dip</dimen>
-    <dimen name="nad_dashboard_tile_foreground_image_inset">6.0dip</dimen>
-    <dimen name="nad_dashboard_tile_foreground_image_size">36.0dip</dimen>
+    <dimen name="scandium_dashboard_tile_image_size">48.0dip</dimen>
+    <dimen name="scandium_dashboard_tile_foreground_image_inset">6.0dip</dimen>
+    <dimen name="scandium_dashboard_tile_foreground_image_size">36.0dip</dimen>
 
     <dimen name="default_corner_radii">28dp</dimen>
     <dimen name="default_nav_item_padding">10dp</dimen>

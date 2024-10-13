@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.lockscreen;
+package com.scandium.parts.fragments.lockscreen;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -111,7 +111,7 @@ public class UdfpsIconPicker extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.NUSANTARA_PRJ;
+        return MetricsEvent.SCANDIUM_PRJ;
     }
 
     @Override

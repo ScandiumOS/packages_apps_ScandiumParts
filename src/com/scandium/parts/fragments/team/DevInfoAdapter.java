@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.team;
+package com.scandium.parts.fragments.team;
 
 public class DevInfoAdapter {
 

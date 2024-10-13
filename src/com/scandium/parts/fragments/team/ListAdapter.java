@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.team;
+package com.scandium.parts.fragments.team;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -110,7 +110,7 @@ public class ListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                     try {
                         Intent intent = new Intent(Intent.ACTION_VIEW,
                                 mTelegramName.getText().equals("") ?
-                                        Uri.parse("https://t.me/NusantaraCommunity") :
+                                        Uri.parse("https://t.me/ScandiumOS") :
                                         Uri.parse("https://t.me/" + mTelegramName.getText()));
                         mContext.startActivity(intent);
                     } catch (ActivityNotFoundException e) {

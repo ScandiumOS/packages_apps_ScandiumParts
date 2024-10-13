@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.statusbar;
+package com.scandium.parts.fragments.statusbar;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -39,7 +39,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.nusantara.support.preferences.SystemSettingSwitchPreference;
+import com.scandium.support.preferences.SystemSettingSwitchPreference;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class BatteryOptions extends SettingsPreferenceFragment
@@ -62,7 +62,7 @@ public class BatteryOptions extends SettingsPreferenceFragment
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.nad_battery_options);
+        addPreferencesFromResource(R.xml.scandium_battery_options);
         final PreferenceScreen prefSet = getPreferenceScreen();
         final ContentResolver resolver = getActivity().getContentResolver();
 
@@ -124,7 +124,7 @@ public class BatteryOptions extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NUSANTARA_PRJ;
+        return MetricsProto.MetricsEvent.SCANDIUM_PRJ;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
@@ -136,7 +136,7 @@ public class BatteryOptions extends SettingsPreferenceFragment
                             new ArrayList<SearchIndexableResource>();
 
                     SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.nad_battery_options;
+                    sir.xmlResId = R.xml.scandium_battery_options;
                     result.add(sir);
                     return result;
                 }

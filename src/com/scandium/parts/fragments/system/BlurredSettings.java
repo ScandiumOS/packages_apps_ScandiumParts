@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.system;
+package com.scandium.parts.fragments.system;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -25,14 +25,14 @@ import android.os.Handler;
 import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
-import com.nusantara.wings.UtilsNad;
+import com.scandium.parts.UtilsNad;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.nusantara.support.preferences.SystemSettingSeekBarPreference;
-import com.nusantara.support.preferences.SystemSettingSwitchPreference;
+import com.scandium.support.preferences.SystemSettingSeekBarPreference;
+import com.scandium.support.preferences.SystemSettingSwitchPreference;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -139,7 +139,7 @@ implements Preference.OnPreferenceChangeListener {
     }
 
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NUSANTARA_PRJ;
+        return MetricsProto.MetricsEvent.SCANDIUM_PRJ;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

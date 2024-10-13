@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.security.applock
+package com.scandium.parts.fragments.security.applock
 
 import android.app.AppLockManager
 import android.content.Context

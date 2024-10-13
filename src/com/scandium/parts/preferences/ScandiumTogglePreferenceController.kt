@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.preferences
+package com.scandium.parts.preferences
 
 import android.content.Context
 import android.widget.Switch
@@ -27,7 +27,7 @@ import com.android.settings.core.TogglePreferenceController
 import com.android.settingslib.widget.MainSwitchPreference
 import com.android.settingslib.widget.OnMainSwitchChangeListener
 
-abstract class NusantaraTogglePreferenceController(
+abstract class ScandiumTogglePreferenceController(
     context: Context,
     key: String,
 ) : TogglePreferenceController(context, key),
@@ -45,5 +45,5 @@ abstract class NusantaraTogglePreferenceController(
         setChecked(isChecked)
     }
 
-    override fun getSliceHighlightMenuRes() = R.string.menu_key_nusantara
+    override fun getSliceHighlightMenuRes() = R.string.menu_key_scandium
 }

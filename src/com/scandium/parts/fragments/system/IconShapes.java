@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.system;
+package com.scandium.parts.fragments.system;
 
 import static com.android.internal.util.nad.ThemeUtils.ICON_SHAPE_KEY;
 
@@ -113,7 +113,7 @@ public class IconShapes extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.NUSANTARA_PRJ;
+        return MetricsEvent.SCANDIUM_PRJ;
     }
 
     @Override

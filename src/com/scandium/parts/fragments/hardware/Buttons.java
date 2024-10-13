@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.hardware;
+package com.scandium.parts.fragments.hardware;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -48,7 +48,7 @@ public class Buttons extends SettingsPreferenceFragment
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.nad_buttons);
+        addPreferencesFromResource(R.xml.scandium_buttons);
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
@@ -62,7 +62,7 @@ public class Buttons extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NUSANTARA_PRJ;
+        return MetricsProto.MetricsEvent.SCANDIUM_PRJ;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
@@ -74,7 +74,7 @@ public class Buttons extends SettingsPreferenceFragment
                             new ArrayList<SearchIndexableResource>();
 
                     SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.nad_buttons;
+                    sir.xmlResId = R.xml.scandium_buttons;
                     result.add(sir);
                     return result;
                 }

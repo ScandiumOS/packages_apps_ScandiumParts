@@ -15,27 +15,27 @@
             xmlns:settings="http://schemas.android.com/apk/res-auto">
 
 
-    <com.nusantara.support.preferences.SystemSettingSwitchPreference
+    <com.scandium.support.preferences.SystemSettingSwitchPreference
         android:title="@string/blur_style_title"
         android:key="blur_style"
         android:summaryOn="@string/blur_style_summary_on"
         android:summaryOff="@string/blur_style_summary_off" />
 
-    <com.nusantara.support.preferences.SystemSettingSeekBarPreference
+    <com.scandium.support.preferences.SystemSettingSeekBarPreference
         android:title="@string/blur_radius_title"
         android:key="blur_radius"
         android:defaultValue="5"
         android:min="1"
         android:max="25"/>
 
-    <com.nusantara.support.preferences.SystemSettingSeekBarPreference
+    <com.scandium.support.preferences.SystemSettingSeekBarPreference
         android:title="@string/blur_scale_title"
         android:key="blur_scale"
         android:defaultValue="10"
         android:min="1"
         android:max="25" />
 
-    <com.nusantara.support.preferences.SystemSettingSwitchPreference
+    <com.scandium.support.preferences.SystemSettingSwitchPreference
         android:title="@string/combined_blur_title"
         android:key="combined_blur"
         android:summary="@string/combined_blur_summary" />

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.system;
+package com.scandium.parts.fragments.system;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -237,7 +237,7 @@ public class DsbSettings extends SettingsPreferenceFragment
     }
 
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NUSANTARA_PRJ;
+        return MetricsProto.MetricsEvent.SCANDIUM_PRJ;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.statusbar;
+package com.scandium.parts.fragments.statusbar;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -42,9 +42,9 @@ import com.android.settingslib.search.SearchIndexable;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.nusantara.wings.UtilsNad;
+import com.scandium.parts.UtilsNad;
 
-import com.nusantara.support.preferences.SecureSettingSwitchPreference;
+import com.scandium.support.preferences.SecureSettingSwitchPreference;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class IconManager extends SettingsPreferenceFragment
@@ -97,7 +97,7 @@ public class IconManager extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NUSANTARA_PRJ;
+        return MetricsProto.MetricsEvent.SCANDIUM_PRJ;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

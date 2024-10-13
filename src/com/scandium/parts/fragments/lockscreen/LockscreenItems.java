@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.lockscreen;
+package com.scandium.parts.fragments.lockscreen;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -36,7 +36,7 @@ import com.android.settingslib.search.SearchIndexable;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.nusantara.wings.UtilsNad;
+import com.scandium.parts.UtilsNad;
 
 import com.nusantara.support.preferences.SystemSettingSwitchPreference;
 import com.nusantara.support.preferences.SystemSettingListPreference;
@@ -48,7 +48,7 @@ public class LockscreenItems extends SettingsPreferenceFragment
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.nad_lockscreen_items);
+        addPreferencesFromResource(R.xml.scandium_lockscreen_items);
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
@@ -63,7 +63,7 @@ public class LockscreenItems extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NUSANTARA_PRJ;
+        return MetricsProto.MetricsEvent.SCANDIUM_PRJ;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
@@ -75,7 +75,7 @@ public class LockscreenItems extends SettingsPreferenceFragment
                             new ArrayList<SearchIndexableResource>();
 
                     SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.nad_lockscreen_items;
+                    sir.xmlResId = R.xml.scandium_lockscreen_items;
                     result.add(sir);
                     return result;
                 }

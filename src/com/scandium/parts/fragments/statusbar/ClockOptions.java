@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.fragments.statusbar;
+package com.scandium.parts.fragments.statusbar;
 
 import static android.view.DisplayCutout.BOUNDS_POSITION_LEFT;
 import static android.view.DisplayCutout.BOUNDS_POSITION_RIGHT;
@@ -57,9 +57,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import com.nusantara.support.preferences.SystemSettingSwitchPreference;
-import com.nusantara.support.preferences.CustomSeekBarPreference;
-import com.nusantara.support.colorpicker.ColorPickerPreference;
+import com.scandium.support.preferences.SystemSettingSwitchPreference;
+import com.scandium.support.preferences.CustomSeekBarPreference;
+import com.scandium.support.colorpicker.ColorPickerPreference;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class ClockOptions extends SettingsPreferenceFragment
@@ -332,7 +332,7 @@ public class ClockOptions extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NUSANTARA_PRJ;
+        return MetricsProto.MetricsEvent.SCANDIUM_PRJ;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

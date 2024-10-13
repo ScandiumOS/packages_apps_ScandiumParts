@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings;
+package com.scandium.parts;
 
 import android.app.AlertDialog;
 import android.app.ActivityManager;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nusantara.wings.tabs;
+package com.scandium.parts.tabs;
 
 import android.content.ContentResolver;
 import android.os.Bundle;
@@ -75,7 +75,7 @@ public class Hardware extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NUSANTARA_PRJ;
+        return MetricsProto.MetricsEvent.SCANDIUM_PRJ;
     }
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
