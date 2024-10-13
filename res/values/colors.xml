@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017-2019 The Dirty Unicorns Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- Dirty Tweaks -->
+    <color name="team_dialog_circle_border_color">@*android:color/accent_device_default_light</color>
+    <color name="nusantara_wings_category_icon_tint">@*android:color/accent_device_default_light</color>
+    <color name="themes_reset_menu_item">#FF000000</color>
+    <color name="default_inactive_shape_color">#e5e5e5</color>
+    <color name="default_inactive_color">#212121</color>
+    <color name="default_shape_inactive_color">#888888</color>
+
+    <!-- Accent picker -->
+    <color name="accent_picker_white_accent">@android:color/white</color>
+    <color name="accent_picker_dark_accent">@android:color/black</color>
+	
+    <!--Category icon backgorunds-->
+    <color name="dt_notifications_color">#ffffffff</color>
+    <color name="dt_miscellaneous_color">@color/dt_notifications_color</color>
+    <color name="dt_lockscreen_items_color">@color/dt_notifications_color</color>
+    <color name="dt_fingerprint_prefs_color">@color/dt_notifications_color</color>
+    <color name="dt_buttons_color">@color/dt_notifications_color</color>
+    <color name="dt_navigationbar_color">@color/dt_notifications_color</color>
+    <color name="dt_powermenu_color">@color/dt_notifications_color</color>
+    <color name="dt_battery_options_color">@color/dt_notifications_color</color>
+    <color name="dt_carrier_label_color">@color/dt_notifications_color</color>
+    <color name="dt_clock_options_color">@color/dt_notifications_color</color>
+    <color name="dt_game_space_color">@color/dt_notifications_color</color>
+    <color name="dt_icon_manager_color">@color/dt_notifications_color</color>
+    <color name="dt_quicksettings_color">@color/dt_notifications_color</color>
+    <color name="dt_traffic_color">@color/dt_notifications_color</color>
+    <color name="dt_themes_color">@color/dt_notifications_color</color>
+
+    <!-- FOD icon picker -->
+    <color name="fod_item_background_stroke_color">#d6d6d6</color>
+
+    <!-- Gaming Mode -->
+    <color name="nad_gaming_background">@*android:color/accent_device_default_light</color>
+
+    <color name="option_border_default">#5f6368</color>
+    
+    <color name="dev_name_color">@android:color/system_accent1_500</color>
+    
+    <color name="nav_bg">#ff000000</color>
+</resources>

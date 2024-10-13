@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017-2019 The Dirty Unicorns Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- The Team -->
+    <dimen name="team_recycler_height">500dp</dimen>
+
+    <!-- Dashboard -->
+    <dimen name="nad_dashboard_tile_image_size">48.0dip</dimen>
+    <dimen name="nad_dashboard_tile_foreground_image_inset">6.0dip</dimen>
+    <dimen name="nad_dashboard_tile_foreground_image_size">36.0dip</dimen>
+
+    <dimen name="default_corner_radii">28dp</dimen>
+    <dimen name="default_nav_item_padding">10dp</dimen>
+    <dimen name="default_nav_item_text_size">11sp</dimen>
+    <dimen name="default_nav_item_text_padding">8dp</dimen>
+    <dimen name="default_nav_item_title_max_width">80dp</dimen>
+    <dimen name="default_icon_size">26dp</dimen>
+
+    <!-- FOD icon picker -->
+    <dimen name="fod_picker_item_margin">10dp</dimen>
+    <dimen name="fod_picker_item_size">100dp</dimen>
+    <dimen name="fod_picker_item_padding">20dp</dimen>
+
+    <!-- Applications fragment -->
+    <dimen name="default_margin">16dp</dimen>
+</resources>
