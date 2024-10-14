@@ -1,4 +1,4 @@
-package com.nusantara.wings.bottomnav;
+package com.scandium.parts.bottomnav;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -23,7 +23,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.nusantara.wings.bottomnav.ViewUtils;
+import com.scandium.parts.bottomnav.ViewUtils;
 import com.android.settings.R;
 
 /**

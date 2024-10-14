@@ -23,14 +23,14 @@
         android:key="udfps_category"
         android:title="@string/udfps_category_title">
 
-          <com.nusantara.support.preferences.SecureSettingSwitchPreference
+          <com.scandium.support.preferences.SecureSettingSwitchPreference
                android:key="screen_off_udfps_enabled"
                android:title="@string/screen_off_udfps_title"
                android:summary="@string/screen_off_udfps_summary"
                android:defaultValue="false"
                settings:controller="com.android.settings.security.UdfpsGesturePreferenceController" />
 
-          <com.nusantara.support.preferences.SystemSettingSwitchPreference
+          <com.scandium.support.preferences.SystemSettingSwitchPreference
                android:key="udfps_haptic_feedback"
                android:title="@string/udfps_haptic_feedback_title"
                android:summary="@string/udfps_haptic_feedback_summary"

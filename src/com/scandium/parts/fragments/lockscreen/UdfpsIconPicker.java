@@ -70,7 +70,7 @@ public class UdfpsIconPicker extends SettingsPreferenceFragment {
 
     private Resources udfpsRes;
 
-    private String mPkg = "com.nusantara.udfps.resources";
+    private String mPkg = "com.scandium.udfps.resources";
 
     private String[] mIcons;
 

@@ -1,4 +1,4 @@
-package com.nusantara.wings.bottomnav;
+package com.scandium.parts.bottomnav;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,7 +12,7 @@ import android.view.View;
 
 import java.util.ArrayList;
 
-import com.nusantara.wings.bottomnav.BubbleNavigationChangeListener;
+import com.scandium.parts.bottomnav.BubbleNavigationChangeListener;
 import com.android.settings.R;
 
 /**
@@ -29,7 +29,7 @@ public class BubbleNavigationConstraintView extends ConstraintLayout implements 
     }
 
     //constants
-    private static final String TAG = "NusantaraWings";
+    private static final String TAG = "ScandiumParts";
     private static final int MIN_ITEMS = 2;
     private static final int MAX_ITEMS = 5;
 

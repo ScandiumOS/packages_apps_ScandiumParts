@@ -47,7 +47,7 @@ import com.scandium.parts.fragments.team.TeamActivity;
 import com.scandium.parts.bottomnav.BubbleNavigationConstraintView;
 import com.scandium.parts.bottomnav.BubbleNavigationChangeListener;
 
-public class NusantaraWings extends SettingsPreferenceFragment {
+public class ScandiumParts extends SettingsPreferenceFragment {
 
     Context mContext;
     View view;
@@ -56,11 +56,11 @@ public class NusantaraWings extends SettingsPreferenceFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        view = inflater.inflate(R.layout.nusantarawings, container, false);
+        view = inflater.inflate(R.layout.scandiumparts, container, false);
         ActionBar actionBar = getActivity().getActionBar();
         mContext = getActivity();
         if (actionBar != null) {
-            actionBar.setTitle(R.string.nusantarawings_title);
+            actionBar.setTitle(R.string.scandiumparts_title);
         }
 
         Fragment system = new com.scandium.parts.tabs.System();

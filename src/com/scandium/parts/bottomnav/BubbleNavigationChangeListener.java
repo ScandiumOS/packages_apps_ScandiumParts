@@ -1,4 +1,4 @@
-package com.nusantara.wings.bottomnav;
+package com.scandium.parts.bottomnav;
 
 import android.view.View;
 

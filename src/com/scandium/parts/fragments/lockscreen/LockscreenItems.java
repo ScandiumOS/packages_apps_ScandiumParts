@@ -38,8 +38,8 @@ import java.util.List;
 
 import com.scandium.parts.UtilsNad;
 
-import com.nusantara.support.preferences.SystemSettingSwitchPreference;
-import com.nusantara.support.preferences.SystemSettingListPreference;
+import com.scandium.support.preferences.SystemSettingSwitchPreference;
+import com.scandium.support.preferences.SystemSettingListPreference;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class LockscreenItems extends SettingsPreferenceFragment

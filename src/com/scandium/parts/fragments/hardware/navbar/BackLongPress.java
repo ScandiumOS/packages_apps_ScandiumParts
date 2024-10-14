@@ -5,7 +5,7 @@ import android.provider.Settings;
 import android.view.View;
 import android.widget.ListView;
 
-import com.nusantara.support.preferences.AppPicker;
+import com.scandium.support.preferences.AppPicker;
 
 public class BackLongPress extends AppPicker {
 
